@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+<nav id="navbar" class="fixed w-full bg-transparent p-4 transition-all duration-300">
+    <div class="container mx-auto flex justify-center items-center">
+        <ul class="flex space-x-6">
+            <li><a href="#home" class="hover:text-blue-500">HOME</a></li>
+            <li><a href="#about" class="hover:text-blue-500">SOBRE</a></li>
+            <li><a href="#projects" class="hover:text-blue-500">PROJETOS</a></li>
+            <li><a href="#tecnologias" class="hover:text-blue-500">TECNOLOGIAS</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section id="home" class="h-screen flex flex-col justify-center items-center text-center" style="background-image: url('img/background.jpg'); background-size: cover; background-position: center;">
+    <div class="bg-white p-8 rounded-lg shadow-xl max-w-xs md:max-w-sm lg:max-w-md" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="text-4xl font-bold text-black">Olá, sou <span class="text-blue-500">Alysson Silva</span></h2>
+        <p class="mt-2 text-lg text-gray-600">BackEnd Developer Júnior | DJANGO</p>
+        <p class="mt-2 text-lg text-gray-600">Volta Redonda - RJ</p>
+
+        <div class="mt-6 flex justify-center space-x-8">
+            <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank" class="text-gray-400 hover:text-blue-500">
+                <i class="fab fa-linkedin text-3xl"></i>
+            </a>
+            <a href="https://github.com/seu-github" target="_blank" class="text-gray-400 hover:text-blue-500">
+                <i class="fab fa-github text-3xl"></i>
+            </a>
+            <a href="mailto:seu-email@example.com" target="_blank" class="text-gray-400 hover:text-blue-500">
+                <i class="fas fa-envelope text-3xl"></i>
+            </a>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<section id="about" class="py-20 bg-gray-800 text-center">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-white">Sobre</h2>
+        <p class="mt-4 text-lg text-gray-400 max-w-2xl mx-auto text-left">
+            Alysson é formado em técnico de informatica com foco em desenvolvimento de sistemas, profissional na área de tecnologia,
+            graduando em Engenharia de Software. Inclui em seu curriculo desenvolvimentos de sistemas, banco de dados e implementação de soluções tecnológicas inovadoras.
+        </p>
+        <div class="mt-6 space-x-4">
+            <a href="curriculo.pdf" target="_blank" class="inline-block px-8 py-3  rounded-lg text-white hover:bg-blue-700 transition duration-300 transform hover:scale-105 shadow-lg">
+                <i class="fas fa-download text-white text-xl mr-2"></i> Baixar Currículo
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="py-20 bg-white text-center">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-black">Projetos</h2>
+        <p class="mt-4 text-lg text-black max-w-2xl mx-auto text-left">
+            Recentemente desenvolvi um sistema de aluguel de campos de futebol, onde é o objetivo principal do projeto é facilitar a busca por campos de futebol para moradores e turistas que desejam se divertir com amigos e família.
+            A aplicação web é construída com Django, um framework que permite o desenvolvimento rápido e eficiente de aplicações.
+            O Celery é utilizado para gerenciamento de tarefas em segundo plano, enquanto o Redis atua como broker de mensagens,
+            garantindo comunicação eficiente. Docker simplifica a configuração do ambiente, e PostgreSQL serve como banco de dados relacional para a persistência dos dados.
+            O Nginx é utilizado para gerenciar as requisições HTTP e registrar o HTTPS, proporcionando uma camada adicional de segurança para a aplicação.
+            <a href="https://github.com/alyssonAndre/desafio-DMS" class="text-blue-600 flex items-center justify-start space-x-2 mt-4">
+                <span>Aqui está meu GitHub para mais informações</span>
+                <i class="fab fa-github text-black text-xl"></i>
+            </a>
+        </p>
+    </div>
+</section>
+
+
+<section id="formacao" class="py-20 bg-gray-800 text-center">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-white">Formação</h2>
+        <div class="mt-4 max-w-2xl mx-auto text-left">
+            <h3 class="text-xl font-bold text-white">Ensino Técnico Médio</h3>
+            <p class="text-gray-400 mt-2">
+                Escola Técnica Pandiá Calogeras - ETPC • (2020 - 2022)
+            </p>
+            <p class="mt-4 text-lg text-gray-200">
+                Técnico em Informática com foco em desenvolvimento de sistemas, adquirindo conhecimentos em programação, banco de dados e redes. Durante o curso, trabalhei com tecnologias como Python, HTML, CSS, JavaScript, PHP, SQL, Git, Windows, entre outras.
+            </p>
+        </div>
+        <hr class="my-8 mx-auto w-full max-w-2xl border-gray-600">
+        <div class="mt-4 max-w-2xl mx-auto text-left">
+            <h3 class="text-xl font-bold text-white">Engeharia De Software</h3>
+            <p class="text-gray-400 mt-2">
+                Universidade De Vassouras - UNIVASS • (2023 - cursando)
+            </p>
+            <p class="mt-4 text-lg text-gray-200">
+                Granduando em Engenharia de Software, adquirindo conhecimentos em desenvolvimento de software, gerenciamento de projetos, qualidade de software, engenharia de requisitos, engenharia de software,
+                arquitetura de software, testes de software, manutenção de software. Domínio de tecnologias como Python, HTML, CSS, JavaScript, PHP, SQL, Git, Linux, entre outras.
+            </p>
+        </div>
+    </div>
+</section>
+<section id="tecnologias" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-gray-800 text-center">Tecnologias</h2>
+
+        <div class="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-python fa-3x text-blue-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Python</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-leaf fa-3x text-green-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Django</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-html5 fa-3x text-orange-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">HTML5</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-css3-alt fa-3x text-blue-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">CSS3</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-js-square fa-3x text-yellow-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">JavaScript</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-php fa-3x text-purple-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">PHP</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-database fa-3x text-indigo-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">SQL/PostgreSQL</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-git-alt fa-3x text-red-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Git</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-docker fa-3x text-blue-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Docker</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-linux fa-3x text-yellow-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Linux</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-bolt fa-3x text-red-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Redis</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-tasks fa-3x text-green-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Celery</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-server fa-3x text-gray-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Back-End</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-plug fa-3x text-indigo-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">API</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-project-diagram fa-3x text-blue-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">APIREST</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-network-wired fa-3x text-green-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">APIRESTFul</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-users fa-3x text-purple-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">SCRUM</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-bootstrap fa-3x text-purple-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Bootstrap</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-windows fa-3x text-blue-500"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">Windows</h3>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-github fa-3x text-black"></i>
+                    <h3 class="mt-4 text-xl font-semibold text-gray-800">GitHub</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="vamos-conversar" class="py-20 bg-gray-800 text-center">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-white">Vamos Conversar?</h2>
+        <p class="mt-4 text-lg text-gray-400 max-w-2xl mx-auto text-left">
+            Se você chegou até aqui, talvez eu tenha algo a contribuir com o seu projeto.
+            Alysson é formado em técnico de informática com foco em desenvolvimento de sistemas, profissional na área de tecnologia,
+            graduando em Engenharia de Software. Inclui em seu currículo desenvolvimentos de sistemas, banco de dados e implementação de soluções tecnológicas inovadoras.
+        </p>
+
+        <p class="mt-4 text-lg text-gray-400 max-w-2xl mx-auto text-left">
+            Mais informações estão disponíveis no meu currículo:
+        </p>
+
+        <div class="mt-6 space-x-4">
+            <a href="curriculo.pdf" target="_blank" class="inline-block px-8 py-3  rounded-lg text-white hover:bg-blue-700 transition duration-300 transform hover:scale-105 shadow-lg">
+                <i class="fas fa-download text-white text-xl mr-2"></i> Baixar Currículo
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<footer id="footer" class="bg-black py-8">
+    <div class="container mx-auto px-6 text-center">
+        <div class="text-white">
+            <div class="mt-4 flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/alysson-andre-silva-7a8b731a7/" target="_blank" class="text-white hover:text-blue-500">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://github.com/alyssonAndre" target="_blank" class="text-white hover:text-gray-600">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="mailto:alysson.silva364@gmail.com" class="text-white hover:text-blue-500">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <p class="mt-4 text-gray-400 text-sm">© 2025 Alysson Silva - Todos os direitos reservados.</p>
+        <a href="#footer" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white text-2xl bg-white w-12 h-12 flex items-center justify-center rounded-full hover:bg-blue-500 hover:text-white transition-all duration-300">
+            <i class=" text-black hover:text-white fas fa-chevron-down"></i>
+        </a>
+        <a href="#home" class="text-white text-2xl bg-white w-12 h-12 flex items-center justify-center rounded-full hover:bg-blue-500 hover:text-white transition-all duration-300 mx-auto mt-6">
+            <i class=" text-black hover:text-white fas fa-chevron-up"></i>
+        </a>
+
+
+
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
+
